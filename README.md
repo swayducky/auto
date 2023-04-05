@@ -4,7 +4,7 @@
 
 Sway here. I forked [Auto-GPT](https://github.com/Torantulino/Auto-GPT) to see what I can learn.
 
-Auto-GPT uses GPT-4 to autonomously develop and manage businesses.
+Auto-GPT uses GPT-4 to autonomously search Google, discover information, and create content.
 
 ## Sway's notes to self
 
