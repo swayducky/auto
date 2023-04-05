@@ -17,15 +17,14 @@ Auto-GPT uses GPT-4 to autonomously search Google, discover information, and cre
 
 ## 🔧 Usage
 
-1. Run:
+To run:
 ```
 python scripts/main.py
 ```
-2. After each action, type "NEXT COMMAND" to continue.
 
-Use this to use TTS for Auto-GPT
+Other ways of running:
 ```
-python scripts/main.py --speak # with TTS
+python scripts/main.py --speak # with TTS (disabled in this forked repo)
 python scripts/main.py --continuous # dangerous
 ```
 
