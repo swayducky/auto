@@ -1,4 +1,4 @@
-# SwayDucky's fork of Auto-GPT
+# SwayDucky's fork of Auto-GPT (Thing #21)
 ![GitHub Repo stars](https://img.shields.io/github/stars/swayducky/auto?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/swayducky?style=social)
 
