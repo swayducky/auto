@@ -1,5 +1,5 @@
 import os
-from playsound import playsound
+# from playsound import playsound
 import requests
 from config import Config
 cfg = Config()

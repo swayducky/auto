@@ -43,3 +43,9 @@ To use the `google_official_search` command, you need to set up your Google API 
 7. Go to the [Custom Search Engine](https://cse.google.com/cse/all) page and click "Add".
 8. Set up your search engine by following the prompts. You can choose to search the entire web or specific sites.
 9.  Once you've created your search engine, click on "Control Panel" and then "Basics". Copy the "Search engine ID" and set it as an environment variable named `CUSTOM_SEARCH_ENGINE_ID` on your machine. See setting up environment variables below.
+
+
+## Credits
+
+- Follow me: https://twitter.com/swayducky
+- Follow original author of Auto-GPT: https://twitter.com/siggravitas

@@ -130,8 +130,6 @@ def load_variables(config_file="config.yaml"):
 
     if not ai_goals:
         print("Enter up to 5 goals for your AI: ")
-        print("For example: \nIncrease net worth, Grow Twitter Account, Develop and manage multiple businesses autonomously'")
-        print("Enter nothing to load defaults, enter nothing when finished.")
         ai_goals = []
         for i in range(5):
             ai_goal = input(f"Goal {i+1}: ")
@@ -199,7 +197,7 @@ def prompt_user():
     print_to_console(
         "Name your AI: ",
         Fore.GREEN,
-        "For example, 'Entrepreneur-GPT'")
+        "")
     ai_name = input("AI Name: ")
     if ai_name == "":
         ai_name = "Entrepreneur-GPT"
@@ -214,7 +212,7 @@ def prompt_user():
     print_to_console(
         "Describe your AI's role: ",
         Fore.GREEN,
-        "For example, 'an AI designed to autonomously develop and run businesses with the sole goal of increasing your net worth.'")
+        "")
     ai_role = input(f"{ai_name} is: ")
     if ai_role == "":
         ai_role = "an AI designed to autonomously develop and run businesses with the sole goal of increasing your net worth."
@@ -223,7 +221,7 @@ def prompt_user():
     print_to_console(
         "Enter up to 5 goals for your AI: ",
         Fore.GREEN,
-        "For example: \nIncrease net worth, Grow Twitter Account, Develop and manage multiple businesses autonomously'")
+        "")
     print("Enter nothing to load defaults, enter nothing when finished.", flush=True)
     ai_goals = []
     for i in range(5):
